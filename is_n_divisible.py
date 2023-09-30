@@ -27,4 +27,9 @@ def is_divisible(n,x,y):
         print(e)
          
         
-                
+"""
+Eplanatation:
+1) [try and except] was used to check for ZeroDivisionError since the question states that all inputs are non-zero numbers.
+2) abs() was also used to make sure all inputs were positive.
+
+"""
