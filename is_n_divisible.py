@@ -10,3 +10,21 @@ Examples:
 4) n =  12, x = 7, y = 5 => false because  12 is neither divisible by 7 nor 5
 
 """
+
+#Solution
+
+def is_divisible(n,x,y):
+    #your code here
+    try:
+        if abs((n % x == 0) and (n % y == 0)):
+            return True
+        elif abs((n % x != 0) or (n % y != 0)):
+            return False
+        
+    
+    
+    except ZeroDivisionError as e:
+        print(e)
+         
+        
+                
