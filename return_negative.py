@@ -14,3 +14,11 @@ Notes
 
 """
 
+
+#Solution
+
+def make_negative( number ):
+    return -abs(number)
+
+
+# -abs() is used to make a number negative
