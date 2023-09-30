@@ -11,7 +11,7 @@ Examples:
 
 """
 
-#Solution
+# my Solution
 
 def is_divisible(n,x,y):
     #your code here
@@ -33,3 +33,8 @@ Eplanatation:
 2) abs() was also used to make sure all inputs were positive.
 
 """
+
+# simpler solution
+
+def is_divisible(n,x,y):
+    return (n % x == 0) and (n % y == 0)
