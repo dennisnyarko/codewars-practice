@@ -9,3 +9,11 @@ Examples (Input -> Output):
 * "1234!_ "     -> "11223344!!__  "
 
 """
+#solution
+
+def double_char(s):
+    duplicate_string = ""
+    for arr in s:
+        duplicate_string += arr*2
+    return duplicate_string
+    
