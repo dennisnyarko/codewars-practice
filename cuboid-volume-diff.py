@@ -14,3 +14,9 @@ If you can, try writing it in one line of code.
 #Solution
 def find_difference(a, b):
     return abs(a[0] * a[1] * a[2] - b[0] * b[1] * b[2])
+
+#solution option 2
+from numpy import prod
+
+def find_difference(a, b):
+    return abs(prod(a) - prod(b))
