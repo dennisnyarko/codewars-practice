@@ -32,3 +32,7 @@ def get_planet_name(id):
         8: "Neptune"
         }
     return planet_names.get(id, "Unknown")
+
+
+#NB:
+#Python does not have a switch statement as seen in some other programming languages. To achieve the same functionality, you can use a dictionary to map the id values to the planet names.
