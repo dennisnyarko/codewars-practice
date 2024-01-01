@@ -24,3 +24,5 @@ It should return "name" and "score" properties sorted by score; if scores are eq
   {name: "Habanero Hillary", score: 98}
 ]
 """
+
+#SOLUTION
