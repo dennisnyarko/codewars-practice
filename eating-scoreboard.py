@@ -26,3 +26,16 @@ It should return "name" and "score" properties sorted by score; if scores are eq
 """
 
 #SOLUTION
+def calculate_score(participant):
+    #total score for each participant based on the given points
+    score = participant["chickenwings"] * 5 + participant["hamburgers"] * 3 + participant["hotdogs"] * 2
+    return score
+
+def scoreboard(who_ate_what):
+    # scores for each participant
+    scores = [{"name": participant["name"], "score": calculate_score(participant)} for participant in who_ate_what]
+
+    # Sort scoreboard by score and then alphabetically by name
+    sorted_scores = sorted(scores, key=lambda x: (-x["score"], x["name"]))
+
+    return sorted_scores
