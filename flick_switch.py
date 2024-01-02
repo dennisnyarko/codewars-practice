@@ -28,3 +28,7 @@ def flick_switch(input_list):
 print(flick_switch(['codewars', 'flick', 'code', 'wars']))  # ➞ [True, False, False, False]
 print(flick_switch(['flick', 'chocolate', 'adventure', 'sunshine']))  # ➞ [False, False, False, False]
 print(flick_switch(['bicycle', 'jarmony', 'flick', 'sheep', 'flick']))  # ➞ [True, True, False, False, True]
+
+
+
+#REFACTORED SOLUTION
