@@ -11,3 +11,16 @@ Examples
 ['bicycle', 'jarmony', 'flick', 'sheep', 'flick'] ➞ [True, True, False, False, True]
 
 """
+
+#SOLUTION
+def flick_switch(input_list):
+    switch = True  # Start with True, as the first element is not 'flick'
+    result = []
+
+    for item in input_list:
+        if item == 'flick':
+            switch = not switch
+        result.append(switch)
+
+    return result
+
